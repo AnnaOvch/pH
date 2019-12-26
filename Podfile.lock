@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.9.1)
+  - RevealingSplashView (0.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - RevealingSplashView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RevealingSplashView
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  RevealingSplashView: 40c5a770894459736acdc95655eeba0dd30ce91c
+
+PODFILE CHECKSUM: 36988042d4d6be0c0fa50d0effa6db617888d33a
+
+COCOAPODS: 1.8.4
