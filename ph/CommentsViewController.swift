@@ -61,6 +61,7 @@ extension CommentsViewController {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
       let cell = tableView.dequeueReusableCell(withIdentifier: "commentCell") as! CommentTableViewCell
         cell.layer.cornerRadius = 30
+        cell.selectionStyle = .none
         cell.indexP = indexPath[0]
         return cell
     }

@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Alamofire
 
 class SettingsTableViewController: UITableViewController {
+    @IBOutlet weak var dateOfJoining: UILabel!
     
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var email: UILabel!
@@ -17,6 +19,7 @@ class SettingsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        dateOfJoining.text = users[0].date
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -55,7 +58,14 @@ class SettingsTableViewController: UITableViewController {
     }
     
    
-    
+//    func extractDate() {
+//        let host = BackEnd.host + "user/" + String(users[0].id)
+//        request(host,method: .get).responseJSON { request in
+//            let jsonArray = request.result.value as! [String:Any]
+//            let text = jsonArray["date_joined"] as! String
+//            self.dateOfJoining.text = text
+//        }
+//    }
 }
 
 protocol TableProtocol: class {

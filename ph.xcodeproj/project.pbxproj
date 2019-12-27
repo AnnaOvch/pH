@@ -14,11 +14,13 @@
 		E7316FC623AE9A4E0012E686 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316FC523AE9A4E0012E686 /* AlertHelper.swift */; };
 		E7316FC823AECA8B0012E686 /* BackEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316FC723AECA8B0012E686 /* BackEnd.swift */; };
 		E7316FCA23AEE5C50012E686 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316FC923AEE5C50012E686 /* User.swift */; };
-		E7316FCC23AEECF90012E686 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316FCB23AEECF90012E686 /* HomeViewController.swift */; };
 		E7316FD023AEEE040012E686 /* TabController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7316FCF23AEEE040012E686 /* TabController.storyboard */; };
 		E7316FD223AEFC230012E686 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316FD123AEFC230012E686 /* SettingsViewController.swift */; };
 		E7316FD423AF0DAC0012E686 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316FD323AF0DAC0012E686 /* SettingsTableViewController.swift */; };
 		E7316FD623AFA1750012E686 /* ChangeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7316FD523AFA1750012E686 /* ChangeInfoViewController.swift */; };
+		E7AA913123B52ED200757D77 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA913023B52ED200757D77 /* RecommendationViewController.swift */; };
+		E7AA913323B5327400757D77 /* Advices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA913223B5327400757D77 /* Advices.swift */; };
+		E7AA913523B5730300757D77 /* AparatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA913423B5730300757D77 /* AparatsViewController.swift */; };
 		E7E9093823AE533900CE85AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E9093723AE533900CE85AC /* AppDelegate.swift */; };
 		E7E9093A23AE533900CE85AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E9093923AE533900CE85AC /* SceneDelegate.swift */; };
 		E7E9093C23AE533900CE85AC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E9093B23AE533900CE85AC /* LogInViewController.swift */; };
@@ -38,11 +40,13 @@
 		E7316FC523AE9A4E0012E686 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		E7316FC723AECA8B0012E686 /* BackEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackEnd.swift; sourceTree = "<group>"; };
 		E7316FC923AEE5C50012E686 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		E7316FCB23AEECF90012E686 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E7316FCF23AEEE040012E686 /* TabController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabController.storyboard; sourceTree = "<group>"; };
 		E7316FD123AEFC230012E686 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E7316FD323AF0DAC0012E686 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		E7316FD523AFA1750012E686 /* ChangeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeInfoViewController.swift; sourceTree = "<group>"; };
+		E7AA913023B52ED200757D77 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		E7AA913223B5327400757D77 /* Advices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advices.swift; sourceTree = "<group>"; };
+		E7AA913423B5730300757D77 /* AparatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AparatsViewController.swift; sourceTree = "<group>"; };
 		E7E9093423AE533900CE85AC /* ph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E9093723AE533900CE85AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E9093923AE533900CE85AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			children = (
 				E7316FC523AE9A4E0012E686 /* AlertHelper.swift */,
 				E7316FC723AECA8B0012E686 /* BackEnd.swift */,
+				E7AA913223B5327400757D77 /* Advices.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -117,13 +122,14 @@
 				E7E9093923AE533900CE85AC /* SceneDelegate.swift */,
 				E7E9093B23AE533900CE85AC /* LogInViewController.swift */,
 				E7316FC323AE8D210012E686 /* ActivityViewController.swift */,
-				E7316FCB23AEECF90012E686 /* HomeViewController.swift */,
 				E7316FD123AEFC230012E686 /* SettingsViewController.swift */,
 				E7316FD323AF0DAC0012E686 /* SettingsTableViewController.swift */,
 				E7316FD523AFA1750012E686 /* ChangeInfoViewController.swift */,
 				E712C0D823B02CAD00859A67 /* CommentsViewController.swift */,
 				E712C0DA23B0312500859A67 /* CommentTableViewCell.swift */,
 				E7F2A02423B286CD00DE9A09 /* AddCommentViewController.swift */,
+				E7AA913023B52ED200757D77 /* RecommendationViewController.swift */,
+				E7AA913423B5730300757D77 /* AparatsViewController.swift */,
 				E7316FC923AEE5C50012E686 /* User.swift */,
 				E7316FCF23AEEE040012E686 /* TabController.storyboard */,
 				E7E9093D23AE533900CE85AC /* Main.storyboard */,
@@ -255,14 +261,16 @@
 				E7E9093C23AE533900CE85AC /* LogInViewController.swift in Sources */,
 				E7316FD623AFA1750012E686 /* ChangeInfoViewController.swift in Sources */,
 				E7E9093823AE533900CE85AC /* AppDelegate.swift in Sources */,
-				E7316FCC23AEECF90012E686 /* HomeViewController.swift in Sources */,
 				E7E9093A23AE533900CE85AC /* SceneDelegate.swift in Sources */,
 				E7316FC623AE9A4E0012E686 /* AlertHelper.swift in Sources */,
+				E7AA913523B5730300757D77 /* AparatsViewController.swift in Sources */,
+				E7AA913323B5327400757D77 /* Advices.swift in Sources */,
 				E7316FD423AF0DAC0012E686 /* SettingsTableViewController.swift in Sources */,
 				E712C0DB23B0312500859A67 /* CommentTableViewCell.swift in Sources */,
 				E712C0D923B02CAD00859A67 /* CommentsViewController.swift in Sources */,
 				E7316FC423AE8D210012E686 /* ActivityViewController.swift in Sources */,
 				E7316FCA23AEE5C50012E686 /* User.swift in Sources */,
+				E7AA913123B52ED200757D77 /* RecommendationViewController.swift in Sources */,
 				E7F2A02523B286CD00DE9A09 /* AddCommentViewController.swift in Sources */,
 				E7316FD223AEFC230012E686 /* SettingsViewController.swift in Sources */,
 			);

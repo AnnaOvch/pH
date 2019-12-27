@@ -23,6 +23,7 @@ class LogInViewController: UIViewController {
         passwordTextField.delegate = self
         
         setUpSplash()
+       
   }
 
     @IBAction func logInButtonTapped() {
@@ -82,6 +83,7 @@ extension LogInViewController {
         return true
     }
 }
+ 
 extension UITextField{
    @IBInspectable var placeHolderColor: UIColor? {
         get {

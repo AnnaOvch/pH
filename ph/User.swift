@@ -15,12 +15,21 @@ struct User {
     var token: String
     var username: String
     var email: String?
+    var date: String?
+    var sympthom: String?
+    var isAdmin:Bool?
+    var faceApparat:Bool?
+    var salivaApparat:Bool?
+    var idFace:Int?
+    var idSaliva:Int?
+    
     init?(json: [String: Any]) {
         guard
             let id = json["id"] as? Int,
             let token = json["token"] as? String,
             let username = json["username"] as? String
-//            let email = json["email"] as? String
+            
+   
         else {
             return nil
         }
@@ -28,7 +37,8 @@ struct User {
         self.id = id
         self.token = token
         self.username = username
-//        self.email = email
+        
+
     }
 
 }

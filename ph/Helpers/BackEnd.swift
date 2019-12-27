@@ -12,8 +12,10 @@ import Alamofire
 var users: [User] = []
 var modeOfUser:Bool = false //светлая тема
 
+
 struct BackEnd{
-    static let host = "http://127.0.0.1:8000/en/api/v1/"
+    //static let host = "http://127.0.0.1:8000/en/api/v1/"
+    static let host = "https://anyaovch.pythonanywhere.com/en/api/v1/"
     let networkReachabilityManager = Alamofire.NetworkReachabilityManager(host: host)
 
 
